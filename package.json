@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@js-temporal/polyfill": "^0.4.1"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  },
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "temporal api",
+  "main": "app.js",
+  "scripts": {
+    "start": "snowpack dev"
+  },
+  "author": "",
+  "license": "ISC"
+}
