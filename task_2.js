@@ -1,10 +1,4 @@
 import { Temporal } from "@js-temporal/polyfill";
-// Date.prototype.toTemporalInstant = toTemporalInstant;
-
-// const time = Temporal.Now.plainDateTimeISO();
-// document.getElementById("month").innerHTML = time.month;
-// document.getElementById("daynum").innerHTML = time.day;
-// document.getElementById("year").innerHTML = time.year;
 
 function checkTime() {
   const time = Temporal.Now.plainDateTimeISO();
