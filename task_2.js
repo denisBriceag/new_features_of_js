@@ -60,4 +60,4 @@ setInterval(() => {
   checkTime();
 }, 1000);
 
-console.log(true * 40);
+
