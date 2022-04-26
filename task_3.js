@@ -10,6 +10,7 @@
 //[] + [] = ""  or [] + {} = "[object Object]" BUT {} + [] = 0
 //true + true + true === 3 : true
 //and others...
+//Though I fully understand that excluding these core features might be a problem, because this could ruin basically all libraries, frameworks and projects  
 
 //May be a better alternative to the Date object, like moment, but as I saw, Temporal API is at it's 3rd stage, so let's wait until summer.
 
