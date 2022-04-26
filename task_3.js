@@ -11,6 +11,6 @@
 //true + true + true === 3 : true
 //and others...
 
-//My be a better alternative to the Date object, like moment, but as I saw, Temporal API is at it's 3rd stage, so let's wait until summer.
+//May be a better alternative to the Date object, like moment, but as I saw, Temporal API is at it's 3rd stage, so let's wait until summer.
 
 //By now, typisation is the main thing I miss in JS.
