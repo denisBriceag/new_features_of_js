@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: matrixfont;
+  src: url(/digital-7.regular.ttf);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: matrixfont;
+}
+
+.clock {
+  color: #03a062;
+  width: 340px;
+  padding: 13px;
+  border: 3px solid #03a062;
+  border-radius: 5px;
+  transition: 0.8s;
+  transition-property: color;
+}
+
+.clock:hover {
+  color: #04d07e;
+  cursor: pointer;
+}
+
+.date {
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.time {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 3px;
+}
+
+.time span:not(:last-child) {
+  position: relative;
+  margin: 0 6px;
+  font-weight: 300px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.time span:last-child {
+  font-size: 30px;
+  font-weight: 300px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding: 0 5px;
+  border-radius: 3px;
+}
